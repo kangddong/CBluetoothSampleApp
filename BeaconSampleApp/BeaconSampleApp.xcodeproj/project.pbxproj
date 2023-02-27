@@ -18,7 +18,6 @@
 		3665364129A8640B0010253E /* BeaconSampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3665364029A8640B0010253E /* BeaconSampleAppUITestsLaunchTests.swift */; };
 		3665364E29A864440010253E /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3665364D29A864440010253E /* BluetoothManager.swift */; };
 		3665365129A865990010253E /* BeaconListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3665364F29A865990010253E /* BeaconListCell.swift */; };
-		3665365229A865990010253E /* BeaconListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3665365029A865990010253E /* BeaconListCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +53,7 @@
 		3665364029A8640B0010253E /* BeaconSampleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconSampleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3665364D29A864440010253E /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
 		3665364F29A865990010253E /* BeaconListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconListCell.swift; sourceTree = "<group>"; };
-		3665365029A865990010253E /* BeaconListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeaconListCell.xib; sourceTree = "<group>"; };
+		36803E8329AC99A200058E84 /* BeaconListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeaconListCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +104,7 @@
 		3665361C29A8640A0010253E /* BeaconSampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				3665361D29A8640A0010253E /* AppDelegate.swift */,
-				3665361F29A8640A0010253E /* SceneDelegate.swift */,
+				36803E8229AC995100058E84 /* Applications */,
 				3665362129A8640A0010253E /* ViewController.swift */,
 				3665364D29A864440010253E /* BluetoothManager.swift */,
 				3665362329A8640A0010253E /* Main.storyboard */,
@@ -114,7 +112,7 @@
 				3665362829A8640B0010253E /* LaunchScreen.storyboard */,
 				3665362B29A8640B0010253E /* Info.plist */,
 				3665364F29A865990010253E /* BeaconListCell.swift */,
-				3665365029A865990010253E /* BeaconListCell.xib */,
+				36803E8329AC99A200058E84 /* BeaconListCell.xib */,
 			);
 			path = BeaconSampleApp;
 			sourceTree = "<group>";
@@ -134,6 +132,15 @@
 				3665364029A8640B0010253E /* BeaconSampleAppUITestsLaunchTests.swift */,
 			);
 			path = BeaconSampleAppUITests;
+			sourceTree = "<group>";
+		};
+		36803E8229AC995100058E84 /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				3665361D29A8640A0010253E /* AppDelegate.swift */,
+				3665361F29A8640A0010253E /* SceneDelegate.swift */,
+			);
+			path = Applications;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +250,6 @@
 				3665362A29A8640B0010253E /* LaunchScreen.storyboard in Resources */,
 				3665362729A8640B0010253E /* Assets.xcassets in Resources */,
 				3665362529A8640A0010253E /* Main.storyboard in Resources */,
-				3665365229A865990010253E /* BeaconListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
